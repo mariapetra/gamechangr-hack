@@ -1,0 +1,80 @@
+.title-text {
+  font-size: 70px;
+  text-shadow:
+    0 0 7px var(--secondary-color),
+    0 0 10px var(--secondary-color),
+    0 0 21px var(--secondary-color),
+    0 0 42px var(--secondary-color),
+    0 0 82px var(--secondary-color),
+    0 0 92px var(--secondary-color),
+    0 0 102px var(--secondary-color),
+    0 0 151px var(--secondary-color);
+}
+
+/* body * {
+  color: hsla(210, 100%, 100%, 0.88) !important;
+  background: hsla(210, 100%, 50%, 0.33) !important;
+  outline: 0.25rem solid hsla(210, 100%, 100%, 0.50) !important;
+} */
+
+.hero {
+  height: 320px;
+  width: 100%;
+  color: var(--bg-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("./images/Group-2.png") no-repeat center;
+  align-items: space-between;
+}
+
+.hero-highlight {
+  font-family: var(--highlight-font);
+  font-size: 80px;
+  text-shadow: var(--shadow-font);
+}
+
+.hero-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-text-section {
+  margin-right: 11rem;
+  padding: 0.5rem;
+}
+
+.hero-text {
+  font-size: 50px;
+  color: var(--shadow-font);
+  font-weight: bold;
+}
+
+@media screen and (max-width: 750px) {
+  .hero-highlight {
+    font-size: 30px;
+  }
+
+  p.hero-text {
+    font-size: 30px;
+  }
+
+  .hero {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-highlight {
+    font-size: 30px;
+  }
+
+  p.hero-text,
+  #text {
+    font-size: 20px;
+  }
+
+  .hero {
+    max-width: 100%;
+  }
+}
