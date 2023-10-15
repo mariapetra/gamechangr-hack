@@ -1,0 +1,66 @@
+body {
+  background-image: url('./images/Artboard211.svg');
+}
+
+.badge-container {
+  margin-top: 300px;
+  padding: 10px;
+}
+
+.badge-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.badge {
+  border: 2px solid #1ecfee;
+  color: black;
+  width: 220px;
+  background-color: #b4edf8;
+  border-radius: 10px;
+  align-content: center;
+  justify-content: center;
+  margin-top: 65%;
+  margin-left: 15%;
+  text-align: center;
+  box-shadow: inset;
+  border-bottom: 10px solid #1ecfee;
+}
+
+.badge img {
+  padding: 20px;
+}
+
+.animate {
+  animation: jump-shaking 1s linear infinite;
+}
+
+@keyframes jump-shaking {
+  0% {
+    transform: translateX(0)
+  }
+
+  25% {
+    transform: translateY(-9px)
+  }
+
+  35% {
+    transform: translateY(-9px) rotate(17deg)
+  }
+
+  55% {
+    transform: translateY(-9px) rotate(-17deg)
+  }
+
+  65% {
+    transform: translateY(-9px) rotate(17deg)
+  }
+
+  75% {
+    transform: translateY(-9px) rotate(-17deg)
+  }
+
+  100% {
+    transform: translateY(0) rotate(0)
+  }
+}

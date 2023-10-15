@@ -153,7 +153,7 @@ button {
 }
 
 .logo {
-  background-image: url(./images/primarylogo.png);
+  background-image: url("./images/primarylogo.png");
   width: 300px;
   height: 90px;
   object-fit: cover;
@@ -178,7 +178,7 @@ button {
   object-fit: cover;
   overflow: hidden;
   width: 120px;
-  height: 120px;
+  height: auto;
 }
 
 .stories {
@@ -190,7 +190,10 @@ button {
   color: var(--dark-font);
 }
 
-
+.adventure {
+  padding: 50px;
+  margin: 20px;
+}
 
 @media (max-width: 576px) {
 
